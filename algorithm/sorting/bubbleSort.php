@@ -1,7 +1,7 @@
 <?php
 
-  //  here we use annonymus function to sort array
-    $bubbleSort=function(array $arr){
+  //  here we use anonymous function to sort array
+    $bubbleSort=function(array $arr):array{
 
       $count =0;
       $len =count($arr);
@@ -24,13 +24,13 @@
 
     };
 
-    $arr = [15,20,21,43,8,9,5];
+    $arr = [15,1,3,43,8,9,5,37,24,07];
 
     $sortedArray =$bubbleSort($arr);
 
-   // print_r($sortedArray);
+   print_r($sortedArray);
 
-   echo implode(",",$sortedArray);
+   //echo implode(",",$sortedArray);
 
 
 
